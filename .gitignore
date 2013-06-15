@@ -32,6 +32,8 @@ modules.builtin
 *.lzo
 *.patch
 *.gcno
+*.img
+
 
 #
 # Top-level generic files
@@ -45,6 +47,11 @@ modules.builtin
 /Module.markers
 /Module.symvers
 
+#
+# Debian directory (make deb-pkg)
+#
+/debian/
+/drivers/gpu_msm/
 #
 # git files that we don't want to ignore even it they are dot-files
 #
